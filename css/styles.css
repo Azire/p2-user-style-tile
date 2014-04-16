@@ -61,6 +61,9 @@ a:visited{
 }
 /* Classes for colors and bgs */
 
+.logo {
+	width: 100%;
+}
 .paper{
 	background: url('../img/lightpaperfibers.png'), repeat;
 	border-radius: 0 9px 0 9px;
