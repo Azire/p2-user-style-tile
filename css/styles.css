@@ -1,11 +1,15 @@
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 5px 10px;
 }
 
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
+}
+
+body {
+	background: url('../img/tileable_wood_texture.png'), repeat;
 }
 
 .color-1,
@@ -15,9 +19,9 @@ section {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 3px solid #aaa;
 	float: left;
-	margin: 5px 10px 0px 0px;
+	margin: 10px 10px 0px 0px;
 	height: 100px;
 	width: 100px;
 }
@@ -25,7 +29,7 @@ section {
 h1 {
 	font-family: 'Tienne', serif;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 4em;
 	margin: 5px 0px;
 }
 
@@ -38,6 +42,16 @@ h3 {
 	font-family: 'Tienne', serif;
 	font-weight: 400;
 }
+
+p{
+	font-family: 'Duru Sans', sans-serif;
+}
+
+.paper{
+	background: url('../img/lightpaperfibers.png'), repeat;
+	border-radius: 0 9px 0 9px;
+}
+
 .color-1 {
 	background: #ff4500;
 }
@@ -55,9 +69,16 @@ h3 {
 }
 
 .pattern-1 {
-	background: ;
+	background: url('../img/tileable_wood_texture.png'), repeat;
 }
 
+.pattern-2 {
+	background: url('../img/lightpaperfibers.png'), repeat;
+}
+
+.pattern-3 {
+	background: url('../img/black_paper.png'), repeat;
+}
 
 /* Show Grid */
 .showgrid {
