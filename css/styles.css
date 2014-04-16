@@ -1,0 +1,65 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 5px 10px 0px 0px;
+	height: 100px;
+	width: 100px;
+}
+
+h1 {
+	font-family: 'Tienne', serif;
+	font-weight: 700;
+	font-size: 3em;
+	margin: 5px 0px;
+}
+
+h2 {
+	font-family: 'Duru Sans', sans-serif;
+
+}
+
+h3 {
+	font-family: 'Tienne', serif;
+	font-weight: 400;
+}
+.color-1 {
+	background: #ff4500;
+}
+
+.color-2{
+	background: #0a64a4;
+}
+
+.color-3 {
+	background: #a62d00;
+}
+
+.color-4 {
+	background: #ff9000;
+}
+
+.pattern-1 {
+	background: ;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
