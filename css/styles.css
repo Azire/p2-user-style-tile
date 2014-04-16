@@ -47,6 +47,20 @@ p{
 	font-family: 'Duru Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #ff9000;
+}
+
+a:hover{
+	color: #0a64a4;
+}
+
+a:visited{
+	color: #0a64a4;
+}
+/* Classes for colors and bgs */
+
 .paper{
 	background: url('../img/lightpaperfibers.png'), repeat;
 	border-radius: 0 9px 0 9px;
@@ -81,6 +95,3 @@ p{
 }
 
 /* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
